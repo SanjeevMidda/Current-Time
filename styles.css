@@ -1,0 +1,14 @@
+/* Basic styling for all elements */
+*{
+    font-family: helvetica;
+    font-weight: 300px;
+}
+
+/* Flexbox used to center all items */
+body{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
